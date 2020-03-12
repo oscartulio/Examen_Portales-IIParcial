@@ -1,0 +1,129 @@
+*{
+    margin: 10px;
+    padding: 10px;
+    box-sizing: content-box;
+}
+
+/*Principal*/
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.header nav{
+    background-color: #0264fb;
+    max-width: 1200px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media (min-width: 800px){
+    .header nav{
+        flex-direction: row;
+        justify-items: right;
+    }
+}
+
+    .boton{
+        position: static;
+        text-decoration: none;
+        background-color: #ffb03a;
+        color: white;
+        border-radius: 0.3em;
+        border: none;
+        padding: 1em 2em;
+        align-items: initial;
+    }
+
+    .logo{
+        display: flex;
+        flex-direction: column;
+
+    }
+    nav{
+        
+    }
+    a{
+        text-decoration: none;
+        color: white;
+        padding-inline: 1em;
+    }
+.hero{
+    background-image: url(/imagenes/Path\ 2.png);
+    background-position: center;
+    background-size: cover;
+    height: 28em;
+    display: flex;
+    position: relative;
+    align-items: center;
+    margin-bottom: 2em;
+    /*justify-content: center;*/
+
+}
+    .content{
+        position: relative;
+        flex: 0 1 auto;
+        padding-bottom: 2em;
+        color: white;
+        text-align: center;
+    }
+        .p2{
+            text-align: justify;
+            font-size: small;
+        }
+        .p3{
+            text-align: justify;
+            font-style: italic;
+        }
+       
+
+    .img-content{
+        background-image: url(/imagenes/Hero\ Cloud\ Server\ Illustration.png);
+        background-size: contain;
+        background-position: center;
+        flex: 2em 4;
+        
+        height: 20em;
+
+
+    }
+
+/*Body*/
+    .tittle1{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+        .tittle1 h2{
+            color: #0264fb;
+            font-size: 2em;
+            font-style: initial;
+        }
+
+        .tittle1 p{
+            font-size: 18px;
+            text-align: center;
+        }
+
+        .section{
+            background-color: lightgreen;
+            display: flex;
+            flex-flow: column;
+        }
+
+            .article{
+                background-color: lightseagreen;
+                display: flex;
+                flex: wrap;
+                flex-direction: row;
+                width: 8em;
+                
+            }
+
+            @media(min-width: 760px){
+                .article{
+                    flex-direction: column;
+                }
+            }
